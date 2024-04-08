@@ -15,6 +15,10 @@ crate-type = ["cdylib", "rlib"]
 [dependencies]
 near-sdk = "5.0.0"
 
+[package.metadata.near.reproducible_build]
+image = "docker.io/sourcescan/cargo-near:0.6.0-builder"
+image_digest = "sha256:d21001ebc889478deac105a07efbefcd667d6a2e927e8ea5f1526cd1877ae84a"
+
 [dev-dependencies]
 near-sdk = { version = "5.0.0", features = ["unit-testing"] }
 near-workspaces = { version = "0.10.0", features = ["unstable"] }
