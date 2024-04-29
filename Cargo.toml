@@ -18,7 +18,7 @@ near-sdk = "5.0.0"
 [package.metadata.near.reproducible_build]
 image = "docker.io/sourcescan/cargo-near:0.6.0-near"
 image_digest = "sha256:e5a0eaa0abdedd002c74cdb2eefd7ee7ffd5bc72274a756714a13e8ffc635dcd"
-source_code_git_url="https://github.com/Canvinus/cargo-near-new-project-template"
+source_code_git_url="https://github.com/Canvinus/cargo-near-new-project-template.git"
 container_build_command = "cargo near build --no-abi"
 
 
